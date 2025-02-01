@@ -1,18 +1,15 @@
 # Stock-Prediction
 
-#Overview
+#Overview:
+
 This project utilizes a Long Short-Term Memory (LSTM) neural network to predict stock prices based on historical stock data. The dataset is fetched using Yahoo Finance, preprocessed, and then used to train the LSTM model.
 
-#Dependencies
+#Dependencies:
 Make sure you have the following Python libraries installed before running the script:
 pip install numpy pandas matplotlib yfinance scikit-learn tensorflow keras
 
-#Dataset
+#Dataset:
 The stock price data is fetched using the yfinance library. The script downloads historical stock data for the specified company within a given date range.
-
-Steps in the Model
-
-Data Collection: The script fetches stock price data for Google (GOOG) from 2012-01-01 to 2022-12-21 using Yahoo Finance.
 
 #Data Preprocessing:
 Extracts the closing prices.
